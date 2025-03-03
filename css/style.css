@@ -43,7 +43,8 @@ header {
 }
 
 nav{
-    background-color: burlywood;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav ul li {
@@ -55,3 +56,71 @@ nav ul li a {
     color: black;
     text-decoration: none;
 } 
+
+.my_picture{
+    height: 100px;
+}
+
+.about{
+    padding: 40px;
+    background-color: bisque;
+}
+
+.about-container{
+    display: flex;
+    align-items:stretch
+}
+
+.about_1{
+    flex: 1;
+    width: 60%;
+    font-size: 40px;
+}
+
+.abt_me{
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.projects{
+    padding: 40px;
+    flex-direction: row;
+    background-color: beige;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project_text{
+    flex: 1;
+    font-size: 40px;
+}
+
+.project_img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.contacts{
+    padding: 40px;
+    background-color: black;
+    color: burlywood;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* .languages{
+    align-items: center;
+    justify-content: flex-start;
+} */
